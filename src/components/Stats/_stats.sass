@@ -1,0 +1,96 @@
+$background: #F3F3F3
+
+.Stats
+    height: 100%
+    width: 100%
+    padding: 0 2rem 5rem 2rem
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    h1
+        margin: 2rem
+
+.Player
+    width: 100%
+    background: white
+    height: 6rem
+    margin: 1rem 0
+    padding: 1rem
+    border-radius: 1rem
+    display: flex
+    justify-content: space-between
+    align-items: center
+    cursor: pointer
+    img
+        height: 100%
+        width: auto
+
+.Player-Stats
+    position: fixed
+    top: 0
+    z-index: 2
+    width: 100vw
+    height: 100vh
+    background-image: linear-gradient(red, yellow)
+    display: flex
+    justify-content: flex-start
+    flex-direction: column
+    .nav
+        padding-left: 2rem
+        width: 100%
+        display: flex
+        justify-content: flex-start
+        align-items: center
+        i
+            font-size: 26px
+            cursor: pointer
+    .img-container
+        width: 100%
+        height: 35%
+        display: flex
+        justify-content: center
+        img
+            height: 100%
+            width: auto
+    .stats-container
+        height: 100%
+        width: 100%
+        border-radius: 1.5rem 1.5rem 0 0
+        background: $background
+        padding: 2rem
+        .player-stats
+            margin-top: 2rem
+            background: white
+            width: 100%
+            display: flex
+            flex-direction: column
+            border-radius: 1rem
+            .row
+                width: 100%
+
+                display: flex
+                justify-content: space-between
+
+            .stat
+                margin: .5rem 0
+                width: 33%
+                padding: 1rem
+                display: flex
+                align-items: center
+                flex-direction: column
+                justify-content: flex-start
+            p
+                margin-bottom: .5rem
+
+@media only screen and (min-width: 700px)
+    .Player
+        max-width: 40%
+    .img-container
+        min-height: 38%
+    .stats-container
+        padding: 0 20% !important
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center

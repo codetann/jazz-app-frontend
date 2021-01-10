@@ -1,0 +1,24 @@
+$background: #F3F3F3
+
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+    font-family: 'Inter'
+
+.App
+    background: $background
+    height: 100%
+    display: flex
+    align-items: flex-start
+    flex-direction: column
+
+@media only screen and (min-width: 700px)
+    .App
+        flex-direction: row
+
+@import ../components/NavBar/_navbar
+@import ../components/Home/_home
+@import ../components/Schedule/_schedule
+@import ../components/Stream/_stream
+@import ../components/Stats/_stats
