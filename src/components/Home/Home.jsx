@@ -1,8 +1,6 @@
 import React from "react";
 
 export default function Home() {
-  const img = process.env.REACT_APP_URL_PNG;
-
   return (
     <div className="Home">
       <h1>Utah Jazz</h1>
