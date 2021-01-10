@@ -48,7 +48,6 @@ export default function NavBar() {
     <div className="NavBar">
       {loaded && (
         <>
-          {" "}
           <Link onClick={handleHome} to="/">
             <i
               style={{ color: toggle.home ? "#D5223E" : "" }}
