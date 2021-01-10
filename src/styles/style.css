@@ -304,11 +304,19 @@ iframe {
   height: 13rem;
 }
 
-@media only screen and (min-width: 700px) {
-  iframe {
-    width: 50%;
-    height: 40rem;
-  }
+.stream-button {
+  padding: 1rem 2rem;
+  border-radius: .5rem;
+  border: none;
+  background: #22d590;
+  margin: 2rem;
+}
+
+.stream-button a {
+  color: white;
+  font-weight: bold;
+  letter-spacing: .5px;
+  text-decoration: none;
 }
 
 .Stats {
